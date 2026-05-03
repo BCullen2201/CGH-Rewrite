@@ -1,6 +1,6 @@
-/* ============================== */
-/* ============ MAIN ============ */
-/* ============================== */
+/* ++++++++++++++++++++++++++++++ */
+/* ++++++++++++ MAIN ++++++++++++ */
+/* ++++++++++++++++++++++++++++++ */
 
 html, body {
     height: 100%;
@@ -167,12 +167,11 @@ footer a:visited {
     color: rebeccapurple;
 }
 
-/* ======================================= */
-/* ============ MEDIA QUERIES ============ */
-/* ======================================= */
+/* +++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++ MEDIA QUERIES ++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++ */
 
-/* Small phones */
-@media (max-width: 480px) {
+@media (max-width: 480px) { /* ------ SMALL PHONES ------ */
 /* ================================ */
 /* ============ HEADER ============ */
 /* ================================ */
@@ -194,8 +193,7 @@ footer a:visited {
     }
 }
 
-/* Normal sized phones */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) { /* ------ NORMAL SIZED PHONES ------ */
 /* ================================ */
 /* ============ HEADER ============ */
 /* ================================ */
@@ -226,8 +224,7 @@ footer a:visited {
     }
 }
 
-/* Tablets and other large 'mobile' devices */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) { /* ------ TABLETS AND OTHER LARGE 'MOBILE' DEVICES ------ */
 /* ============================= */
 /* ============ NAV ============ */
 /* ============================= */
@@ -245,8 +242,7 @@ footer a:visited {
     }
 }
 
-/* Laptops and smaller monitors */
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) { /* ------ LAPTOPS AND SMALLER MONITORS ------ */
 /* ============================= */
 /* ============ NAV ============ */
 /* ============================= */
@@ -289,8 +285,7 @@ footer a:visited {
     }
 }
 
-/* Desktop and widescreen monitors */
-@media (min-width: 1441px) {
+@media (min-width: 1441px) { /* ------ DESKTOP AND WIDESCREEN MONITORS ------ */
 /* ================================ */
 /* ============ HEADER ============ */
 /* ================================ */
