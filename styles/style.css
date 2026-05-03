@@ -247,6 +247,39 @@ footer a:visited {
 
 /* Laptops and smaller monitors */
 @media (min-width: 1025px) and (max-width: 1440px) {
+/* ============================= */
+/* ============ NAV ============ */
+/* ============================= */
+
+    nav {
+        justify-content: center;
+    }
+
+    nav .navlinks a:hover {
+        color: red;
+    }
+
+    nav .dropdownmenu {
+        margin-left: 1em;
+    }
+
+    nav .dropdownmenu:hover button {
+        background-color: red;
+    }
+
+    nav .dropdownmenu button {
+        border-right: 1px solid white;
+        cursor: pointer;
+    }
+
+    nav .dropdownmenu .dropdownlist {
+        min-width: 20vw;
+    }
+
+    nav .dropdownmenu .dropdownlist a:hover {
+        background-color: red;
+    }
+
 /* ================================= */
 /* ============ CONTENT ============ */
 /* ================================= */
@@ -290,7 +323,7 @@ footer a:visited {
         min-width: 25vw;
     }
 
-    nav .dropdownmenu button:hover {
+    nav .dropdownmenu:hover button {
         background-color: red;
     }
 
