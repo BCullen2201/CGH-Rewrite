@@ -307,6 +307,10 @@ footer a:visited {
         color: red;
     }
 
+    nav .dropdownmenu {
+        margin-left: 1em;
+    }
+
     nav .dropdownmenu button {
         border: none;
         border-left: 1px solid white;
