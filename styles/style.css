@@ -1,0 +1,308 @@
+/* ============================== */
+/* ============ MAIN ============ */
+/* ============================== */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ================================ */
+/* ============ HEADER ============ */
+/* ================================ */
+
+header {
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+}
+
+header img {
+    width: auto;
+    height: 14vh;
+}
+
+/* ============================= */
+/* ============ NAV ============ */
+/* ============================= */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
+
+nav .navlinks {
+    margin-left: 1em;
+}
+
+nav .navlinks a {
+    padding: 0.1em;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .dropdownmenu {
+    width: fit-content;
+}
+
+nav .dropdownmenu button {
+    display: flex;
+    padding: 12px;
+    border: none;
+    border-left: 1px solid white; /* for testing and shit */
+    background-color: black;
+}
+
+nav .dropdownmenu button img{
+    image-rendering: optimizeSpeed;
+    height: 38px;
+    width: auto;
+}
+
+nav .dropdownmenu .dropdownlist {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border-top: 5px solid red;
+    justify-self: end;
+    min-width: 100vw;
+    max-height: 60vh;
+    overflow-y: scroll;
+    overscroll-behavior-y: contain;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+nav .dropdownmenu .dropdownlist hr {
+    width: 95%;
+}
+
+nav .dropdownmenu .dropdownlist a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+/* ================================= */
+/* ============ CONTENT ============ */
+/* ================================= */
+
+.content {
+    margin: 1em;
+    color: #4a4a4a;
+    flex: 1 0 auto;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.content a {
+    color: #0000cc;
+}
+
+.content a:visited {
+    color: #8d3491;
+}
+
+.content .welcome .title {
+    text-align: center;
+}
+
+.content .welcome .imp-links p {
+    font-size: 0.8rem;
+}
+
+.content i {
+    color: red;
+}
+
+.content article .subsect {
+    margin-left: 1em;
+}
+
+/* ================================ */
+/* ============ FOOTER ============ */
+/* ================================ */
+
+footer {
+    padding: 1em 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    min-height: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+    border-top: 5px solid red;
+}
+
+footer a {
+    color: lightskyblue;
+}
+
+footer a:visited {
+    color: rebeccapurple;
+}
+
+/* ======================================= */
+/* ============ MEDIA QUERIES ============ */
+/* ======================================= */
+
+/* Small phones */
+@media (max-width: 480px) {
+/* ================================ */
+/* ============ HEADER ============ */
+/* ================================ */
+
+    header a img {
+        height: 12vh;
+    }
+
+/* ============================= */
+/* ============ NAV ============ */
+/* ============================= */
+
+    nav .navlinks a {
+        font-size: 0.82rem;
+    }
+
+    nav .dropdownmenu .dropdownlist a {
+        font-size: 0.82rem;
+    }
+}
+
+/* Normal sized phones */
+@media (min-width: 481px) and (max-width: 768px) {
+/* ================================ */
+/* ============ HEADER ============ */
+/* ================================ */
+
+    header a img {
+        height: 14vh;
+    }
+
+/* ============================= */
+/* ============ NAV ============ */
+/* ============================= */
+
+    nav .navlinks a {
+        padding: 1em;
+        font-size: 1rem;
+    }
+
+    nav .dropdownmenu .dropdownlist a {
+        font-size: 1rem;
+    }
+
+/* ================================= */
+/* ============ CONTENT ============ */
+/* ================================= */
+
+    .content {
+        margin: 0 15%;
+    }
+}
+
+/* Tablets and other large 'mobile' devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+/* ============================= */
+/* ============ NAV ============ */
+/* ============================= */
+
+    nav .navlinks a {
+        margin: 0 0.6em;
+    }
+
+/* ================================= */
+/* ============ CONTENT ============ */
+/* ================================= */
+
+    .content {
+        margin: 0 12%;
+    }
+}
+
+/* Laptops and smaller monitors */
+@media (min-width: 1025px) and (max-width: 1440px) {
+/* ================================= */
+/* ============ CONTENT ============ */
+/* ================================= */
+
+    .content {
+        margin: 0 18%;
+    }
+}
+
+/* Desktop and widescreen monitors */
+@media (min-width: 1441px) {
+/* ================================ */
+/* ============ HEADER ============ */
+/* ================================ */
+
+    header a img {
+        height: 20vh;
+        width: auto;
+    }
+
+/* ============================= */
+/* ============ NAV ============ */
+/* ============================= */
+
+    nav {
+        justify-content: center;
+    }
+
+    nav .navlinks a:hover {
+        color: red;
+    }
+
+    nav .dropdownmenu button {
+        border: none;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        cursor: pointer;
+    }
+
+    nav .dropdownmenu .dropdownlist {
+        min-width: 25vw;
+    }
+
+    nav .dropdownmenu button:hover {
+        background-color: red;
+    }
+
+    nav .dropdownmenu .dropdownlist a:hover {
+        background-color: red;
+    }
+
+/* ================================= */
+/* ============ CONTENT ============ */
+/* ================================= */
+
+    .content {
+        margin: 0 25%;
+    }
+}
