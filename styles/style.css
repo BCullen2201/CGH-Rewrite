@@ -108,6 +108,7 @@ nav .dropdownmenu .dropdownlist a {
 /* ================================= */
 
 .content {
+    min-height: 70vh;
     margin: 1em;
     color: #4a4a4a;
     flex: 1 0 auto;
