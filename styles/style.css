@@ -170,11 +170,8 @@ footer {
 }
 
 footer a {
-    color: lightskyblue;
-}
-
-footer a:visited {
-    color: rebeccapurple;
+    color: white;
+    text-decoration: none;
 }
 
 /* +++++++++++++++++++++++++++++++++++++++ */
@@ -294,6 +291,14 @@ footer a:visited {
         margin: 0 18%;
     }
 }
+
+/* ================================ */
+/* ============ FOOTER ============ */
+/* ================================ */
+
+    footer a:hover {
+        text-decoration: underline;
+    }
 
 @media (min-width: 1441px) { /* ------ DESKTOP AND WIDESCREEN MONITORS ------ */
 /* ================================ */
