@@ -136,6 +136,10 @@ nav .dropdownmenu .dropdownlist a {
     font-size: 0.8rem;
 }
 
+.content .welcome .imp-links a {
+    font-size: inherit;
+}
+
 .content i {
     color: red;
 }
@@ -150,6 +154,10 @@ nav .dropdownmenu .dropdownlist a {
 
 .content li {
     margin: 1em 0;
+}
+
+.content li a {
+    font-size: inherit;
 }
 
 /* ================================ */
