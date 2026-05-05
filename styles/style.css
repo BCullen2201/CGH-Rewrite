@@ -148,6 +148,27 @@ nav .dropdownmenu .dropdownlist a {
     margin: 1em 0;
 }
 
+.content .willspage-table { /* --- Rules for tables in /Records/CullenWills.html --- */
+    margin-bottom: 1em;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.content .willspage-table, th, td {
+    border: 1px solid #000;
+}
+
+.content .willspage-table th {
+    text-align: start;
+    padding: 1em;
+}
+
+.content .willspage-table ul {
+    list-style: none;
+    padding: 0 1em;
+}
+
 /* ================================ */
 /* ============ FOOTER ============ */
 /* ================================ */
