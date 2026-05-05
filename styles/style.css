@@ -136,10 +136,6 @@ nav .dropdownmenu .dropdownlist a {
     font-size: 0.8rem;
 }
 
-.content i {
-    color: red;
-}
-
 .content article .subsect {
     margin-left: 1em;
 }
@@ -150,6 +146,27 @@ nav .dropdownmenu .dropdownlist a {
 
 .content li {
     margin: 1em 0;
+}
+
+.content .willspage-table { /* --- Rules for tables in /Records/CullenWills.html --- */
+    margin-bottom: 1em;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.content .willspage-table, th, td {
+    border: 1px solid #000;
+}
+
+.content .willspage-table th {
+    text-align: start;
+    padding: 1em;
+}
+
+.content .willspage-table ul {
+    list-style: none;
+    padding: 0 1em;
 }
 
 /* ================================ */
@@ -227,7 +244,7 @@ footer a {
 /* ================================= */
 
     .content {
-        margin: 0 15%;
+        margin: 1em 15%;
     }
 }
 
@@ -245,7 +262,7 @@ footer a {
 /* ================================= */
 
     .content {
-        margin: 0 12%;
+        margin: 1em 12%;
     }
 }
 
@@ -288,7 +305,7 @@ footer a {
 /* ================================= */
 
     .content {
-        margin: 0 18%;
+        margin: 1em 18%;
     }
 }
 
@@ -350,6 +367,6 @@ footer a {
 /* ================================= */
 
     .content {
-        margin: 0 25%;
+        margin: 1em 25%;
     }
 }
