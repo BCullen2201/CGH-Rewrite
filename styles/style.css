@@ -335,6 +335,10 @@ footer a {
     .content {
         margin: 1em 18%;
     }
+
+    .content .will-transcription {
+        padding: 1em;
+    }
 }
 
 /* ================================ */
@@ -396,5 +400,9 @@ footer a {
 
     .content {
         margin: 1em 25%;
+    }
+
+    .content .will-transcription {
+        padding: 1em;
     }
 }
