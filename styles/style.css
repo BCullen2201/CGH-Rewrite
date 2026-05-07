@@ -124,6 +124,10 @@ nav .dropdownmenu .dropdownlist a {
     font-size: inherit;
 }
 
+.content .goto {
+    color: inherit;
+}
+
 .content a:visited {
     color: #8d3491;
 }
