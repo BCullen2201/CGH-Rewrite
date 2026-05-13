@@ -189,16 +189,19 @@ nav .dropdownmenu .dropdownlist a {
     font-size: smaller;
 }
 
-.content .portion-of-will-img {
+.content figure {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
-.content .portion-of-will-img img { /* Will have to set a guideline on how big these photos can be */
+.content figure img { /* Will have to set a guideline on how large these images can be */
     max-height: 500px;
-    max-width: 260px;
+    max-width: 280px;
+}
+
+.content figure figcaption {
+    margin-top: 1em;
 }
 
 /* ================================ */
@@ -247,6 +250,14 @@ footer a {
     nav .dropdownmenu .dropdownlist a {
         font-size: 0.82rem;
     }
+
+/* ================================= */
+/* ============ CONTENT ============ */
+/* ================================= */
+
+    .content figure {
+        align-items: center;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) { /* ------ NORMAL SIZED PHONES ------ */
@@ -278,6 +289,15 @@ footer a {
     .content {
         margin: 1em 15%;
     }
+
+    .content figure {
+        align-items: center;
+    }
+
+    .content figure img { /* Will have to set a guideline on how large these images can be */
+        max-height: 700px;
+        max-width: 460px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) { /* ------ TABLETS AND OTHER LARGE 'MOBILE' DEVICES ------ */
@@ -295,6 +315,15 @@ footer a {
 
     .content {
         margin: 1em 12%;
+    }
+
+    .content figure {
+        align-items: center;
+    }
+
+    .content figure img { /* Will have to set a guideline on how large these images can be */
+        max-height: 700px;
+        max-width: 460px;
     }
 }
 
@@ -342,6 +371,15 @@ footer a {
 
     .content .will-transcription {
         padding: 1em;
+    }
+
+    .content figure {
+        align-items: center;
+    }
+
+    .content figure img { /* Will have to set a guideline on how large these images can be */
+        max-height: 700px;
+        max-width: 460px;
     }
 }
 
@@ -408,5 +446,14 @@ footer a {
 
     .content .will-transcription {
         padding: 1em;
+    }
+
+    .content figure {
+        align-items: center;
+    }
+
+    .content figure img { /* Will have to set a guideline on how large these images can be */
+        max-height: 700px;
+        max-width: 460px;
     }
 }
