@@ -185,10 +185,15 @@ nav .dropdownmenu .dropdownlist a {
     font-size: smaller;
 }
 
+.content .show-figure {
+    display: flex;
+    justify-content: center;
+}
+
 .content figure {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    max-width: min-content;
 }
 
 .content figure img { /* Will have to set a guideline on how large these images can be */
@@ -246,14 +251,6 @@ footer a {
     nav .dropdownmenu .dropdownlist a {
         font-size: 0.82rem;
     }
-
-/* ================================= */
-/* ============ CONTENT ============ */
-/* ================================= */
-
-    .content figure {
-        align-items: center;
-    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) { /* ------ NORMAL SIZED PHONES ------ */
@@ -286,10 +283,6 @@ footer a {
         margin: 1em 15%;
     }
 
-    .content figure {
-        align-items: center;
-    }
-
     .content figure img { /* Will have to set a guideline on how large these images can be */
         max-height: 700px;
         max-width: 460px;
@@ -311,10 +304,6 @@ footer a {
 
     .content {
         margin: 1em 12%;
-    }
-
-    .content figure {
-        align-items: center;
     }
 
     .content figure img { /* Will have to set a guideline on how large these images can be */
@@ -367,10 +356,6 @@ footer a {
 
     .content .will-transcription {
         padding: 1em;
-    }
-
-    .content figure {
-        align-items: center;
     }
 
     .content figure img { /* Will have to set a guideline on how large these images can be */
@@ -442,10 +427,6 @@ footer a {
 
     .content .will-transcription {
         padding: 1em;
-    }
-
-    .content figure {
-        align-items: center;
     }
 
     .content figure img { /* Will have to set a guideline on how large these images can be */
