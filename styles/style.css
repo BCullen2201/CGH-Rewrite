@@ -203,6 +203,15 @@ nav .dropdownmenu .dropdownlist a {
 
 .content figure figcaption {
     margin-top: 1em;
+    line-height: 1.2;
+}
+
+.content cite .credit-ref {
+    font-style: normal;
+}
+
+.credit-ref a {
+    text-decoration: none;
 }
 
 /* ================================ */
@@ -362,6 +371,10 @@ footer a {
         max-height: 700px;
         max-width: 460px;
     }
+
+    .content .credit-ref a:hover {
+        text-decoration: underline;
+    }
 }
 
 /* ================================ */
@@ -432,5 +445,9 @@ footer a {
     .content figure img { /* Will have to set a guideline on how large these images can be */
         max-height: 700px;
         max-width: 460px;
+    }
+
+    .content .credit-ref a:hover {
+        text-decoration: underline;
     }
 }
