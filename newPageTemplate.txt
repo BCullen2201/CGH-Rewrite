@@ -86,6 +86,14 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quidem totam do
 </p>
 </section>
 
+<!-- Figure template
+<section class="show-figure">
+<figure>
+<img src="" alt="">
+<figcaption></figcaption>
+</figure>
+</section> -->
+
 </div>
 
 </main>
