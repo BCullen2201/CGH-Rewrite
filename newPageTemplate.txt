@@ -101,6 +101,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quidem totam do
 <footer>
     <p><b>Our Site</b></p>
     <p><a href="/CGH-Rewrite">Home</a></p>
+    <p><a href="/CGH-Rewrite/Contact.html">Contact</a></p>
     <p><a href="/CGH-Rewrite/Credits.html">Credits</a></p>
 </footer>
 
