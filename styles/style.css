@@ -328,6 +328,11 @@ footer a {
         max-height: 700px;
         max-width: 460px;
     }
+
+    x3d-canvas {
+        width: 400px;
+        height: 300px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) { /* ------ TABLETS AND OTHER LARGE 'MOBILE' DEVICES ------ */
@@ -350,6 +355,11 @@ footer a {
     .content figure img { /* Will have to set a guideline on how large these images can be */
         max-height: 700px;
         max-width: 460px;
+    }
+
+    x3d-canvas {
+        width: 800px;
+        height: 600px;
     }
 }
 
@@ -406,6 +416,11 @@ footer a {
 
     .content .credit-ref a:hover {
         text-decoration: underline;
+    }
+
+    x3d-canvas {
+        width: 960px;
+        height: 540px;
     }
 }
 
@@ -481,5 +496,10 @@ footer a {
 
     .content .credit-ref a:hover {
         text-decoration: underline;
+    }
+
+    x3d-canvas {
+        width: 1280px;
+        height: 720px;
     }
 }
