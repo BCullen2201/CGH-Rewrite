@@ -214,6 +214,33 @@ nav .dropdownmenu .dropdownlist a {
     text-decoration: none;
 }
 
+.img-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrap-laigen-img {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #670000;
+}
+
+.laigen-game-window {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-game-window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: #670000;
+}
+
 /* ================================ */
 /* ============ FOOTER ============ */
 /* ================================ */
