@@ -241,6 +241,11 @@ nav .dropdownmenu .dropdownlist a {
     background-color: #670000;
 }
 
+x3d-canvas { /* jfc i could not figure out why i couldnt resize the game window for almost the whole day, i was forgetting the px for pixels >:( */
+    width: 300px;
+    height: 200px;
+}
+
 /* ================================ */
 /* ============ FOOTER ============ */
 /* ================================ */
