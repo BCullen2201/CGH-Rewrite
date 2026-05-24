@@ -214,6 +214,38 @@ nav .dropdownmenu .dropdownlist a {
     text-decoration: none;
 }
 
+.img-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrap-laigen-img {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #670000;
+}
+
+.laigen-game-window {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-game-window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: #670000;
+}
+
+x3d-canvas { /* jfc i could not figure out why i couldnt resize the game window for almost the whole day, i was forgetting the px for pixels >:( */
+    width: 300px;
+    height: 200px;
+}
+
 /* ================================ */
 /* ============ FOOTER ============ */
 /* ================================ */
@@ -296,6 +328,11 @@ footer a {
         max-height: 700px;
         max-width: 460px;
     }
+
+    x3d-canvas {
+        width: 400px;
+        height: 300px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) { /* ------ TABLETS AND OTHER LARGE 'MOBILE' DEVICES ------ */
@@ -318,6 +355,11 @@ footer a {
     .content figure img { /* Will have to set a guideline on how large these images can be */
         max-height: 700px;
         max-width: 460px;
+    }
+
+    x3d-canvas {
+        width: 800px;
+        height: 600px;
     }
 }
 
@@ -374,6 +416,11 @@ footer a {
 
     .content .credit-ref a:hover {
         text-decoration: underline;
+    }
+
+    x3d-canvas {
+        width: 960px;
+        height: 540px;
     }
 }
 
@@ -449,5 +496,10 @@ footer a {
 
     .content .credit-ref a:hover {
         text-decoration: underline;
+    }
+
+    x3d-canvas {
+        width: 1280px;
+        height: 720px;
     }
 }
