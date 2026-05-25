@@ -214,6 +214,7 @@ nav .dropdownmenu .dropdownlist a {
     text-decoration: none;
 }
 
+/* ============ Laigen ============ */
 .img-and-text {
     display: flex;
     flex-direction: column;
@@ -235,10 +236,19 @@ nav .dropdownmenu .dropdownlist a {
 
 .wrap-game-window {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 6px;
     background-color: #670000;
+}
+
+.wrap-game-window cite {
+    padding-top: 5px;
+}
+
+.wrap-game-window cite a {
+    color: lightskyblue;
 }
 
 x3d-canvas { /* jfc i could not figure out why i couldnt resize the game window for almost the whole day, i was forgetting the px for pixels >:( */
