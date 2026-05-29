@@ -214,6 +214,15 @@ nav .dropdownmenu .dropdownlist a {
     text-decoration: none;
 }
 
+.wrap-family-tree {
+    display: flex;
+    flex-direction: column;
+}
+
+.family-tree {
+    scale: 1;
+}
+
 /* ================================ */
 /* ============ FOOTER ============ */
 /* ================================ */
