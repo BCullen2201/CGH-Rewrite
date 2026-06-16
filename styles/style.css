@@ -225,6 +225,42 @@ nav .dropdownmenu .dropdownlist a {
     height: auto;
 }
 
+/* ============ Laigen ============ */
+.wrap-laigen-img {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #670000;
+}
+
+.laigen-game-window {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-game-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: #670000;
+}
+
+.wrap-game-window cite {
+    padding-top: 5px;
+}
+
+.wrap-game-window cite a {
+    color: lightskyblue;
+}
+
+x3d-canvas { /* jfc i could not figure out why i couldnt resize the game window for almost the whole day, i was forgetting the px for pixels >:( */
+    width: 300px;
+    height: 200px;
+}
+
 /* ================================ */
 /* ============ FOOTER ============ */
 /* ================================ */
@@ -312,6 +348,11 @@ footer a {
         width: 80vw;
         height: auto;
     }
+
+    x3d-canvas {
+        width: 400px;
+        height: 300px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) { /* ------ TABLETS AND OTHER LARGE 'MOBILE' DEVICES ------ */
@@ -339,6 +380,11 @@ footer a {
     .family-tree {
         width: 70vw;
         height: auto;
+    }
+
+    x3d-canvas {
+        width: 800px;
+        height: 600px;
     }
 }
 
@@ -400,6 +446,11 @@ footer a {
     .family-tree {
         width: 45vw;
         height: auto;
+    }
+
+    x3d-canvas {
+        width: 960px;
+        height: 540px;
     }
 }
 
@@ -480,5 +531,10 @@ footer a {
     .family-tree {
         width: 38vw;
         height: auto;
+    }
+
+    x3d-canvas {
+        width: 1280px;
+        height: 720px;
     }
 }
