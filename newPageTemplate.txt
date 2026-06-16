@@ -8,41 +8,41 @@
 <meta name="keywords" content="">
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/CGH-Rewrite/styles/style.css">
+<link rel="stylesheet" href="styles/style.css">
 <link rel="shortcut icon" href="">
-<script src="/CGH-Rewrite/scripts/dropdown.js"></script>
+<script src="scripts/dropdown.js"></script>
 <title>You forgot to change the title, fool.</title>
 </head>
 
 <body>
 
 <header>
-<a href="/CGH-Rewrite">
-<img src="/CGH-Rewrite/resource/Arms_No_BG.gif" alt="Arms_no_BG.gif">
-<img src="/CGH-Rewrite/resource/CulGenPg.gif" alt="CulGenPg.gif">
+<a href="./">
+<img src="resource/Arms_No_BG.gif" alt="Arms_no_BG.gif">
+<img src="resource/CulGenPg.gif" alt="CulGenPg.gif">
 </a>
 </header>
 
 <nav>
 
 <div class="navlinks">
-<a href="#">What's New?</a>
-<a href="#">Links</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
+<a href="WhatsNew.html">What's New?</a>
+<a href="Links.html">Links</a>
+<a href="About.html">About</a>
+<a href="Contact.html">Contact</a>
 </div>
 
 <div class="dropdownmenu">
-<button href="javascript:void(0);" onclick="toggleMenu()"><img src="/CGH-Rewrite/resource/hamburger-menu-svgrepo-com.svg" alt="Menu"></button>
+<button href="javascript:void(0);" onclick="toggleMenu()"><img src="resource/hamburger-menu-svgrepo-com.svg" alt="Menu"></button>
 <div class="dropdownlist" id="dropDownList">
-    <a href="/CGH-Rewrite">Home</a>
+    <a href="./">Home</a>
     <a href="WhatsNew.html">What's New? (Last Update: 19 APR 2026)</a>
     <a href="DailyLog.html">&nbsp;&nbsp;&nbsp;The Daily Log</a>
     <a href="CullBrf.html">&nbsp;&nbsp;&nbsp;A Brief Introduction to the Family History</a>
     <a href="MailList.html">&nbsp;&nbsp;&nbsp;Rootsweb Cullen List</a>
     <a href="About.html">&nbsp;&nbsp;&nbsp;About the website</a>
     <a href="Contact.html">&nbsp;&nbsp;&nbsp;Contact Us</a>
-    <a href="/CGH-Rewrite/Credits.html">&nbsp;&nbsp;&nbsp;Credits and Licenses</a>
+    <a href="Credits.html">&nbsp;&nbsp;&nbsp;Credits and Licenses</a>
     <a href="WareRYou.html">&nbsp;&nbsp;&nbsp;Searching for Your Ancestors Online</a>
     <hr>
     <a href="CullOrig.html">History of the name Cullen</a>
@@ -58,13 +58,13 @@
     <a href="Pedigree.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Co Leitrim Cullen History c.1860</a>
     <a href="RelFam.html">&nbsp;&nbsp;&nbsp;Related English Cullens (7 items)</a>
     <hr>
-    <a href="/CGH-Rewrite/Records">The Records Archive (?? items)</a>
+    <a href="Records/">The Records Archive (?? items)</a>
     <hr>
     <a href="QuerPage.html">Main Page: Cullen Genealogy Posts (many)</a>
     <a href="PostScot.html">&nbsp;&nbsp;&nbsp;Posts for Scotland</a>
     <a href="PostEngl.html">&nbsp;&nbsp;&nbsp;Posts for England</a>
     <hr>
-    <a href="LinkPage.html">Genealogy & Other Links</a>
+    <a href="Links.html">Genealogy & Other Links</a>
     <hr>
     <a href="DNATrait.html">DNA & Family Traits</a>
     <a href="KidCorner.html">Kid's Corner</a>
@@ -100,9 +100,10 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quidem totam do
 
 <footer>
     <p><b>Our Site</b></p>
-    <p><a href="/CGH-Rewrite">Home</a></p>
-    <p><a href="/CGH-Rewrite/Contact.html">Contact</a></p>
-    <p><a href="/CGH-Rewrite/Credits.html">Credits</a></p>
+    <p><a href="./">Home</a></p>
+    <p><a href="About.html">About</a></p>
+    <p><a href="Contact.html">Contact</a></p>
+    <p><a href="Credits.html">Credits</a></p>
 </footer>
 
 </body>
