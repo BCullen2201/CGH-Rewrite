@@ -90,7 +90,9 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quidem totam do
 <section class="show-figure">
 <figure>
 <img src="" alt="">
-<figcaption></figcaption>
+<figcaption>
+<cite>&nbsp;<sup class="credit-ref"></sup></cite>
+</figcaption>
 </figure>
 </section> -->
 
