@@ -225,6 +225,10 @@ nav .dropdownmenu .dropdownlist a {
     height: auto;
 }
 
+.back-button {
+    text-align: center;
+}
+
 /* ============ Laigen ============ */
 .wrap-laigen-img {
     padding: 5px;
