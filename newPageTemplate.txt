@@ -79,6 +79,13 @@
 
 <div class="content">
 
+<section class="welcome">
+<div class="title">
+<h1>Page Title</h1>
+</div>
+<p>Introduction if needed</p>
+</section>
+
 <section>
 <h2>Section Header</h2>
 <p>

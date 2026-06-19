@@ -225,8 +225,27 @@ nav .dropdownmenu .dropdownlist a {
     height: auto;
 }
 
+/* 'Back to chart' button on FamilyTrees pages. Could be used elsewhere, if so, change class name to just 'button' or something */
 .back-button {
-    text-align: center;
+    padding: 0.6em;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.back-button:hover {
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.back-button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.back-button a:visited {
+    color: #FFF;
 }
 
 /* ============ Laigen ============ */
