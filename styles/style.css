@@ -170,7 +170,7 @@ nav .dropdownmenu .dropdownlist a {
 }
 
 .content .will-transcription { /* --- Rules for stuff in will pages --- */
-    padding: 5px;
+    padding: 5px;              /* These will transcription rules are used on more than will transcriptions, rename them */
     padding-bottom: 1.2em;
     background-color: white;
     color: black;
