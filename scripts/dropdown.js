@@ -21,7 +21,7 @@ function toggleMenu() {
 
         // Text to display ( ! CHANGE TEXT HERE ! )
         whatsNewLink.innerHTML = "What's New? (Last Update: DD/MM/YYYY)";
-        familyTreesLink.innerHTML = "Main Page: Cullen Genealogy (TEST pages)";
+        familyTreesLink.innerHTML = "Main Page: Cullen Genealogy (?? pages)";
         jameFamLink.innerHTML = "&nbsp;&nbsp;&nbsp;James Family in Ohio (?? pages)";
         novaScotLink.innerHTML = "&nbsp;&nbsp;&nbsp;Perrin Family of Nova Scotia (?? pages)";
         rudeForefathersLink.innerHTML = "&nbsp;&nbsp;&nbsp;Cullens of Upton, Nottinghamshire (?? pages)";
