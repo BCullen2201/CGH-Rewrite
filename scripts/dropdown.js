@@ -20,14 +20,14 @@ function toggleMenu() {
         var recordsArchiveLink = document.getElementById("RecordsArchive");
 
         // Text to display ( ! CHANGE TEXT HERE ! )
-        whatsNewLink.innerHTML = "What's New? (Last Update: DD/MM/YYYY)";
-        familyTreesLink.innerHTML = "Main Page: Cullen Genealogy (?? pages)";
-        jameFamLink.innerHTML = "&nbsp;&nbsp;&nbsp;James Family in Ohio (?? pages)";
-        novaScotLink.innerHTML = "&nbsp;&nbsp;&nbsp;Perrin Family of Nova Scotia (?? pages)";
-        rudeForefathersLink.innerHTML = "&nbsp;&nbsp;&nbsp;Cullens of Upton, Nottinghamshire (?? pages)";
-        MHCullenLink.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Manorhamilton, Co Leitrim (?? pages)";
-        cardCullLink.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Cardinal Paul Cullen (?? pages)";
-        relFamLink.innerHTML = "&nbsp;&nbsp;&nbsp;Related English Cullens (?? items)";
-        recordsArchiveLink.innerHTML = "The Records Archive (?? items)";
+        whatsNewLink.innerHTML = "DD/MM/YYYY";
+        familyTreesLink.innerHTML = "??";
+        jameFamLink.innerHTML = "??";
+        novaScotLink.innerHTML = "??";
+        rudeForefathersLink.innerHTML = "??";
+        MHCullenLink.innerHTML = "??";
+        cardCullLink.innerHTML = "??";
+        relFamLink.innerHTML = "??";
+        recordsArchiveLink.innerHTML = "??";
     }
 }
