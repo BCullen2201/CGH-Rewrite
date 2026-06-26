@@ -1,5 +1,5 @@
 #VRML V2.0 utf8
-NavigationInfo { avatarSize [ .5 1.6 .5 ] headlight TRUE speed 1 type ["WALK"] }
+NavigationInfo { avatarSize [ .5 1.6 .5 ] headlight TRUE speed 2 type ["WALK"] }
 DEF Beginning Viewpoint { position -2 1.6 2 orientation 0 1 0 -1.1 fieldOfView 0.785 jump TRUE description "Home"}
 DEF Room2 Viewpoint { position 30 1.6 -12.5 orientation 0 1 0 -2.7 fieldOfView 0.785 jump TRUE description "Room2"}
 DEF Temple Viewpoint { position 80 1.6 7.5 orientation 0 1 0 -2 fieldOfView 0.785 jump TRUE description "Temple"}
