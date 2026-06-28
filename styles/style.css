@@ -303,6 +303,22 @@ footer a {
     text-decoration: none;
 }
 
+.online-since {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1em;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.online-since p {
+    margin: 0;
+}
+
 /* +++++++++++++++++++++++++++++++++++++++ */
 /* ++++++++++++ MEDIA QUERIES ++++++++++++ */
 /* +++++++++++++++++++++++++++++++++++++++ */
