@@ -226,14 +226,14 @@ nav .dropdownmenu .dropdownlist a {
 }
 
 /* 'Back to chart' button on FamilyTrees pages. Could be used elsewhere, if so, change class name to just 'button' or something */
-.back-button {
+.custom-button {
     display: flex;
     padding: 0;
     border: none;
     background-color: black;
 }
 
-.back-button a {
+.custom-button a {
     display: block;
     padding: 0.8em;
     text-decoration: none;
@@ -241,7 +241,7 @@ nav .dropdownmenu .dropdownlist a {
     color: #FFF;
 }
 
-.back-button a:visited {
+.custom-button a:visited {
     color: #FFF;
 }
 
@@ -484,7 +484,7 @@ footer a {
         height: auto;
     }
 
-    .back-button:hover {
+    .custom-button:hover {
         background-color: red;
         cursor: pointer;
     }
@@ -574,7 +574,7 @@ footer a {
         height: auto;
     }
 
-    .back-button:hover {
+    .custom-button:hover {
         background-color: red;
         cursor: pointer;
     }
