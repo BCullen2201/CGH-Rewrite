@@ -148,6 +148,27 @@ nav .dropdownmenu .dropdownlist a {
     margin: 1em 0;
 }
 
+.content .table-container {
+    overflow-x: auto;
+    display: block;
+    width: 100%;
+}
+
+.content table {
+    width: 780px; /* This is about how wide the table is at a screen width of 1024px. */
+    background-color: #000;
+}
+
+.content table th {
+    font-weight: normal;
+    text-align: start;
+}
+
+.content table th, td {
+    padding: 0.4em;
+    background-color: #FFF;
+}
+
 .content .willspage-table { /* --- Rules for tables in /Records/CullenWills.html --- */
     margin-bottom: 1em;
     width: 100%;
@@ -408,6 +429,21 @@ footer a {
         margin: 1em 12%;
     }
 
+    .content table {
+        width: 100%;
+        background-color: #000;
+    }
+
+    .content table th {
+        font-weight: normal;
+        text-align: start;
+    }
+
+    .content table th, td {
+        padding: 0.4em;
+        background-color: #FFF;
+    }
+
     .content figure img { /* Will have to set a guideline on how large these images can be */
         max-height: 700px;
         max-width: 460px;
@@ -464,6 +500,21 @@ footer a {
 
     .content {
         margin: 1em 18%;
+    }
+
+    .content table {
+        width: 100%;
+        background-color: #000;
+    }
+
+    .content table th {
+        font-weight: normal;
+        text-align: start;
+    }
+
+    .content table th, td {
+        padding: 0.4em;
+        background-color: #FFF;
     }
 
     .content .will-transcription {
@@ -554,6 +605,21 @@ footer a {
 
     .content {
         margin: 1em 25%;
+    }
+
+    .content table {
+        width: 100%;
+        background-color: #000;
+    }
+
+    .content table th {
+        font-weight: normal;
+        text-align: start;
+    }
+
+    .content table th, td {
+        padding: 0.4em;
+        background-color: #FFF;
     }
 
     .content .will-transcription {
