@@ -484,7 +484,7 @@ footer a {
         height: auto;
     }
 
-    .back-button:hover {
+    .custom-button:hover {
         background-color: red;
         cursor: pointer;
     }
@@ -574,7 +574,7 @@ footer a {
         height: auto;
     }
 
-    .back-button:hover {
+    .custom-button:hover {
         background-color: red;
         cursor: pointer;
     }
