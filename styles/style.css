@@ -149,10 +149,12 @@ nav .dropdownmenu .dropdownlist a {
 }
 
 .content table {
+    margin: 2em 0;
     justify-self: center;
     width: 100%;
     max-width: 960px;
     background-color: #000;
+    line-height: 1.4;
 }
 
 .content table th {
