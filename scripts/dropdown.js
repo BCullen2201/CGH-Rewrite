@@ -18,7 +18,7 @@ function toggleMenu() {
     } else {
         list.style.display = "block";
 
-        // Change page count and dates HERE instead of in HTML
+        // Change page count and dates in drop down list HERE instead of in HTML
         whatsNewLink.innerHTML = "DD/MM/YYYY";
         familyTreesLink.innerHTML = "??";
         jameFamLink.innerHTML = "??";
