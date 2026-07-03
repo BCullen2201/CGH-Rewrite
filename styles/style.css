@@ -148,6 +148,25 @@ nav .dropdownmenu .dropdownlist a {
     margin: 1em 0;
 }
 
+.content table {
+    margin: 2em 0;
+    justify-self: center;
+    width: 100%;
+    max-width: 960px;
+    background-color: #000;
+    line-height: 1.4;
+}
+
+.content table th {
+    font-weight: normal;
+    text-align: start;
+}
+
+.content table th, td {
+    padding: 0.4em;
+    background-color: #FFF;
+}
+
 .content .willspage-table { /* --- Rules for tables in /Records/CullenWills.html --- */
     margin-bottom: 1em;
     width: 100%;
