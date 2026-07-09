@@ -150,21 +150,29 @@ nav .dropdownmenu .dropdownlist a {
 
 .content table {
     margin: 2em 0;
-    justify-self: center;
-    width: 100%;
-    max-width: 960px;
+    width: auto;
     background-color: #000;
     line-height: 1.4;
 }
 
+.table-container {
+    overflow-x: auto;
+    display: block;
+    width: 100%;
+}
+
 .content table th {
+    background-color: #CCC;
     font-weight: normal;
     text-align: start;
 }
 
+.content table td {
+    background-color: #FFF;
+}
+
 .content table th, td {
     padding: 0.4em;
-    background-color: #FFF;
 }
 
 .content .willspage-table { /* --- Rules for tables in /Records/CullenWills.html --- */
