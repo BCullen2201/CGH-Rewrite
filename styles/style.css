@@ -151,14 +151,14 @@ nav .dropdownmenu .dropdownlist a {
 .content table {
     empty-cells: show;
     margin: 2em 0;
-    width: auto;
+    width: 100%;
     background-color: #000;
     line-height: 1.4;
 }
 
-.table-container {
+.content .table-container {
+    justify-self: center;
     overflow-x: auto;
-    display: block;
     width: 100%;
 }
 
@@ -498,6 +498,14 @@ footer a {
         padding: 1em;
     }
 
+    .content .table-container {
+        overflow-x: visible;
+    }
+
+    .content table {
+        justify-self: center;
+    }
+
     .content figure img { /* Will have to set a guideline on how large these images can be */
         max-height: 700px;
         max-width: 460px;
@@ -586,6 +594,14 @@ footer a {
 
     .content .will-transcription {
         padding: 1em;
+    }
+
+    .content .table-container {
+        overflow-x: visible;
+    }
+
+    .content table {
+        justify-self: center;
     }
 
     .content figure img { /* Will have to set a guideline on how large these images can be */
