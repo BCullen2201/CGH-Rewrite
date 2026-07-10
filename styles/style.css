@@ -149,22 +149,31 @@ nav .dropdownmenu .dropdownlist a {
 }
 
 .content table {
+    empty-cells: show;
     margin: 2em 0;
-    justify-self: center;
     width: 100%;
-    max-width: 960px;
     background-color: #000;
     line-height: 1.4;
 }
 
+.content .table-container {
+    justify-self: center;
+    overflow-x: auto;
+    width: 100%;
+}
+
 .content table th {
+    background-color: #CCC;
     font-weight: normal;
     text-align: start;
 }
 
+.content table td {
+    background-color: #FFF;
+}
+
 .content table th, td {
     padding: 0.4em;
-    background-color: #FFF;
 }
 
 .content .willspage-table { /* --- Rules for tables in /Records/CullenWills.html --- */
@@ -489,6 +498,14 @@ footer a {
         padding: 1em;
     }
 
+    .content .table-container {
+        overflow-x: visible;
+    }
+
+    .content table {
+        justify-self: center;
+    }
+
     .content figure img { /* Will have to set a guideline on how large these images can be */
         max-height: 700px;
         max-width: 460px;
@@ -577,6 +594,14 @@ footer a {
 
     .content .will-transcription {
         padding: 1em;
+    }
+
+    .content .table-container {
+        overflow-x: visible;
+    }
+
+    .content table {
+        justify-self: center;
     }
 
     .content figure img { /* Will have to set a guideline on how large these images can be */
