@@ -213,6 +213,11 @@ nav .dropdownmenu .dropdownlist a {
     font-size: smaller;
 }
 
+.content .will-transcription hr {
+    color: #000;
+    margin: 1em 0;
+}
+
 .content .show-figure {
     display: flex;
     justify-content: center;
