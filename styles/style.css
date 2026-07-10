@@ -213,6 +213,11 @@ nav .dropdownmenu .dropdownlist a {
     font-size: smaller;
 }
 
+.content .will-transcription hr {
+    color: #000;
+    margin: 1em 0;
+}
+
 .content .show-figure {
     display: flex;
     justify-content: center;
@@ -498,6 +503,11 @@ footer a {
         padding: 1em;
     }
 
+    .content .will-transcription p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
     .content .table-container {
         overflow-x: visible;
     }
@@ -593,7 +603,12 @@ footer a {
     }
 
     .content .will-transcription {
-        padding: 1em;
+        padding: 1em 2em;
+    }
+
+    .content .will-transcription p {
+        font-size: 1rem;
+        line-height: 1.4;
     }
 
     .content .table-container {
