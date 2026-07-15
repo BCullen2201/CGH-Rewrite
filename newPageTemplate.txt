@@ -95,8 +95,8 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quidem totam do
 
 <!-- Figure template
 <section class="show-figure">
-<figure>
-<img src="" alt="">
+<figure><a href="" target="_blank" title="Open image in new tab">
+<img src="" alt=""></a>
 <figcaption>
 <cite>&nbsp;<sup class="credit-ref"></sup></cite>
 </figcaption>
