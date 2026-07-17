@@ -151,6 +151,7 @@ nav .dropdownmenu .dropdownlist a {
 .content table {
     empty-cells: show;
     margin: 2em 0;
+    padding: 1px;
     width: 100%;
     background-color: #000;
     line-height: 1.4;
