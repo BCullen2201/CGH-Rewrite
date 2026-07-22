@@ -165,6 +165,7 @@ nav .dropdownmenu .dropdownlist a {
 
 .content table th {
     background-color: #CCC;
+    color: #222;
     font-weight: normal;
     text-align: start;
 }
@@ -220,7 +221,7 @@ nav .dropdownmenu .dropdownlist a {
     margin: 1em 0;
 }
 
-.content .will-transcription .glossary-ref {
+.content .glossary-ref {
     color: red;
     font-weight: bold;
 }
