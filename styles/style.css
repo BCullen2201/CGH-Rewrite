@@ -274,6 +274,7 @@ nav .dropdownmenu .dropdownlist a {
 /* 'Back to chart' button on FamilyTrees pages. Could be used elsewhere, if so, change class name to just 'button' or something */
 .custom-button {
     display: flex;
+    margin: 2em 0;
     padding: 0;
     border: none;
     background-color: black;
