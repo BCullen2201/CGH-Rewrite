@@ -226,6 +226,15 @@ nav .dropdownmenu .dropdownlist a {
     font-weight: bold;
 }
 
+.content .glossary-ref a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content .glossary-ref a:visited {
+    color: none;
+}
+
 .content .will-transcription .will-signature {
     margin: 2em 0;
     text-align: end;
@@ -539,6 +548,11 @@ footer a {
         text-decoration: underline;
     }
 
+    .content .glossary-ref a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
     .family-tree {
         width: 45vw;
         height: auto;
@@ -639,6 +653,11 @@ footer a {
     }
 
     .content .credit-ref a:hover {
+        text-decoration: underline;
+    }
+
+    .content .glossary-ref a:hover {
+        cursor: pointer;
         text-decoration: underline;
     }
 
