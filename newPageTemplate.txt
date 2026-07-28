@@ -87,6 +87,7 @@
 </section>
 
 <section>
+<hr>
 <h2>Section Header</h2>
 <p>
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quidem totam dolorem alias necessitatibus repudiandae, temporibus omnis molestiae nisi ad, sequi earum illum magnam dolores pariatur saepe vel sed? Mollitia.
