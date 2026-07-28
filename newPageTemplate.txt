@@ -82,6 +82,7 @@
 <section class="welcome">
 <div class="title">
 <h1>Page Title</h1>
+<p><i>Author's name if needed</i></p>
 </div>
 <p>Introduction if needed</p>
 </section>
