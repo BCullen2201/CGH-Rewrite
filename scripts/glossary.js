@@ -3,24 +3,19 @@ function highlightGlossaryWord(glossaryNum) {
     var id = "glossary-" + glossaryNum;
     var word = document.getElementById(id);
     var value = 0;
-    var i = 0;
+
+    word.style.borderRadius = "5px";
 
     clearInterval(interval);
-    interval = setInterval(frame, 25);
-    function frame() {
-        if (value >= 1) {
+    interval = setInterval(playAnimation, 5);
+    function playAnimation() {
+        if (value > 238) {
+            word.style.backgroundColor = "";
+            word.style.borderRadius = "";
             clearInterval(interval);
         } else {
-            if (i % 5 == 0) { // If the underlining blinks too quick, it looks weird
-                word.style.textDecoration = "underline";
-            } else {
-                word.style.textDecoration = "none";
-            }
-            word.style.opacity = value;
-            value = value + 0.02;
+            word.style.backgroundColor = `rgb(${value}, ${value}, ${value}`;
+            value++;
         }
-        i++;
     }
-
-    word.style.opacity = 1;
 }
