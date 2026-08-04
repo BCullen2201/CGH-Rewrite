@@ -10,8 +10,7 @@ function highlightGlossaryWord(glossaryNum) {
     interval = setInterval(playAnimation, 6);
     function playAnimation() {
         if (value > 238) {
-            word.style.backgroundColor = "";
-            word.style.borderRadius = "";
+            word.removeAttribute("style");
             clearInterval(interval);
         } else {
             word.style.backgroundColor = `rgb(${value}, ${value}, ${value}`;
