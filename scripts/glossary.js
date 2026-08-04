@@ -7,7 +7,7 @@ function highlightGlossaryWord(glossaryNum) {
     word.style.borderRadius = "5px";
 
     clearInterval(interval);
-    interval = setInterval(playAnimation, 5);
+    interval = setInterval(playAnimation, 6);
     function playAnimation() {
         if (value > 238) {
             word.style.backgroundColor = "";
