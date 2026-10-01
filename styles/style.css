@@ -441,6 +441,10 @@ footer a {
         height: auto;
     }
 
+    .content .radford-tree ul {
+        padding-left: 1em;
+    }
+
     x3d-canvas {
         width: 400px;
         height: 300px;
@@ -472,6 +476,10 @@ footer a {
     .family-tree {
         width: 70vw;
         height: auto;
+    }
+
+    .content .radford-tree ul {
+        padding-left: 2em;
     }
 
     x3d-canvas {
@@ -551,6 +559,10 @@ footer a {
     .family-tree {
         width: 45vw;
         height: auto;
+    }
+
+    .content .radford-tree ul {
+        padding-left: 4em;
     }
 
     .custom-button:hover {
@@ -654,6 +666,10 @@ footer a {
     .family-tree {
         width: 38vw;
         height: auto;
+    }
+
+    .content .radford-tree ul {
+        padding-left: 6em;
     }
 
     .custom-button:hover {
