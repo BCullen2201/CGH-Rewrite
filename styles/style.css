@@ -148,6 +148,20 @@ nav .dropdownmenu .dropdownlist a {
     margin: 1em 0;
 }
 
+.content .radford-tree ul {
+    padding: 0;
+    padding-left: 12px;
+    list-style: none;
+}
+
+.content .radford-tree .radford-tree-trunk {
+    padding-left: 0;
+}
+
+.content .radford-tree li {
+    margin: 0;
+}
+
 .content table {
     empty-cells: show;
     margin: 2em 0;
@@ -427,6 +441,10 @@ footer a {
         height: auto;
     }
 
+    .content .radford-tree ul {
+        padding-left: 1em;
+    }
+
     x3d-canvas {
         width: 400px;
         height: 300px;
@@ -458,6 +476,14 @@ footer a {
     .family-tree {
         width: 70vw;
         height: auto;
+    }
+
+    .content .radford-tree ul {
+        padding-left: 2em;
+    }
+
+    .content .radford-tree li {
+        font-size: 1.2rem;
     }
 
     x3d-canvas {
@@ -537,6 +563,14 @@ footer a {
     .family-tree {
         width: 45vw;
         height: auto;
+    }
+
+    .content .radford-tree ul {
+        padding-left: 4em;
+    }
+
+    .content .radford-tree li {
+        font-size: 1.2rem;
     }
 
     .custom-button:hover {
@@ -640,6 +674,14 @@ footer a {
     .family-tree {
         width: 38vw;
         height: auto;
+    }
+
+    .content .radford-tree ul {
+        padding-left: 6em;
+    }
+
+    .content .radford-tree li {
+        font-size: 1.2rem;
     }
 
     .custom-button:hover {
