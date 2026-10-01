@@ -148,6 +148,20 @@ nav .dropdownmenu .dropdownlist a {
     margin: 1em 0;
 }
 
+.content .radford-tree ul {
+    padding: 0;
+    padding-left: 12px;
+    list-style: none;
+}
+
+.content .radford-tree .radford-tree-trunk {
+    padding-left: 0;
+}
+
+.content .radford-tree li {
+    margin: 0;
+}
+
 .content table {
     empty-cells: show;
     margin: 2em 0;
