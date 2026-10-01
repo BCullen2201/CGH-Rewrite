@@ -482,6 +482,10 @@ footer a {
         padding-left: 2em;
     }
 
+    .content .radford-tree li {
+        font-size: 1.2rem;
+    }
+
     x3d-canvas {
         width: 800px;
         height: 600px;
@@ -563,6 +567,10 @@ footer a {
 
     .content .radford-tree ul {
         padding-left: 4em;
+    }
+
+    .content .radford-tree li {
+        font-size: 1.2rem;
     }
 
     .custom-button:hover {
@@ -670,6 +678,10 @@ footer a {
 
     .content .radford-tree ul {
         padding-left: 6em;
+    }
+
+    .content .radford-tree li {
+        font-size: 1.2rem;
     }
 
     .custom-button:hover {
