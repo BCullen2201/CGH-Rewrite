@@ -148,7 +148,7 @@ nav .dropdownmenu .dropdownlist a {
     margin: 1em 0;
 }
 
-.content .radford-tree ul {
+.content .radford-tree ul { /* Used on more than just radford page, rename at some point */
     padding: 0;
     padding-left: 12px;
     list-style: none;
